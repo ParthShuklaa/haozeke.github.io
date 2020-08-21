@@ -116,7 +116,7 @@ particular packages, say <code>libuv</code>.</p><div class=highlight><pre class=
     <span class=p>};</span>
 <span class=p>}</span>
 </code></pre></div><div class=src-block-caption><p><span class=src-block-number>Code Snippet 4</span>: A sample
-<code>config.nix</code> file</p></div><h2 id=python-dependencies>Python Dependencies</h2><p>As R dependency management has been covered [in an earlier post](/posts/nix-r-devtools/), we will focus on the management of
+<code>config.nix</code> file</p></div><h2 id=python-dependencies>Python Dependencies</h2><p>As R dependency management has been covered <a href=/posts/nix-r-devtools/>in an earlier post</a>, we will focus on the management of
 <code>python</code> environments.</p><h3 id=generic-environments>Generic Environments</h3><p>We can define existing packages as follows (and can check for existence
 with <code>nox</code>) using the <code>let..in</code> syntax.</p><div class=highlight><pre class=chroma><code class=language-nix data-lang=nix><span class=k>let</span>
   <span class=c1># Niv</span>
