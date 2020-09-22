@@ -93,7 +93,7 @@ rm Makefile make.bat <span class=c1># other make cruft</span>
 <span class=n>task</span> <span class=ss>:name</span> <span class=k>do</span>
 <span class=c1># Something</span>
 <span class=k>end</span>
-</code></pre></div><p>Some variation of this will be considered when appropriate.</p><h4 id=clean>Clean</h4><p>A <code>clean</code> task is a good first task, being as it is almost trivial in all build systems.</p><div class=highlight><pre class=chroma><code class=language-ruby data-lang=ruby><span class=n>desc</span> <span class=s2>&#34;Clean the generated content&#34;</span>
+</code></pre></div><p>Some variations of this will be considered when appropriate.</p><h4 id=clean>Clean</h4><p>A <code>clean</code> task is a good first task, being as it is almost trivial in all build systems.</p><div class=highlight><pre class=chroma><code class=language-ruby data-lang=ruby><span class=n>desc</span> <span class=s2>&#34;Clean the generated content&#34;</span>
 <span class=n>task</span> <span class=ss>:clean</span> <span class=k>do</span>
   <span class=n>rm_rf</span> <span class=s2>&#34;public&#34;</span>
   <span class=n>rm_rf</span> <span class=s2>&#34;docs/Doxygen/gen_docs&#34;</span>
